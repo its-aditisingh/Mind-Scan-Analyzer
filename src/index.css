@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* NeuroScan EEG Classifier — Medical AI design system. All colors HSL. */
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Electric medical blue */
+    --primary: 217 91% 55%;
+    --primary-foreground: 210 40% 98%;
+    --primary-glow: 199 89% 65%;
+
+    /* Soft violet accent */
+    --secondary: 250 70% 95%;
+    --secondary-foreground: 250 60% 30%;
+
+    --muted: 215 30% 95%;
+    --muted-foreground: 215 16% 45%;
+
+    --accent: 175 70% 92%;
+    --accent-foreground: 175 80% 20%;
+
+    --success: 152 65% 42%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 25% 88%;
+    --input: 215 25% 88%;
+    --ring: 217 91% 55%;
+
+    --radius: 0.75rem;
+
+    /* Chart palette — calming, medical */
+    --chart-1: 217 91% 55%;
+    --chart-2: 175 70% 45%;
+    --chart-3: 250 60% 60%;
+    --chart-4: 152 60% 45%;
+    --chart-5: 199 89% 55%;
+    --chart-6: 280 60% 55%;
+    --chart-7: 38 92% 55%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(217 91% 55%) 0%, hsl(250 70% 60%) 50%, hsl(175 70% 50%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(210 40% 98%) 0%, hsl(215 40% 96%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(215 40% 98%) 100%);
+    --gradient-glow: radial-gradient(circle at 30% 20%, hsl(217 91% 65% / 0.25), transparent 60%);
+
+    /* Shadows */
+    --shadow-soft: 0 1px 3px 0 hsl(217 30% 50% / 0.08), 0 1px 2px 0 hsl(217 30% 50% / 0.06);
+    --shadow-elevated: 0 10px 30px -10px hsl(217 91% 40% / 0.15), 0 4px 12px -4px hsl(217 91% 40% / 0.08);
+    --shadow-glow: 0 0 40px hsl(217 91% 60% / 0.25);
+
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 222 47% 11%;
+    --sidebar-foreground: 210 40% 90%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 222 40% 18%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 222 40% 18%;
+    --sidebar-ring: 217 91% 60%;
+  }
+
+  .dark {
+    --background: 222 47% 6%;
+    --foreground: 210 40% 96%;
+
+    --card: 222 47% 9%;
+    --card-foreground: 210 40% 96%;
+
+    --popover: 222 47% 9%;
+    --popover-foreground: 210 40% 96%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 222 47% 11%;
+    --primary-glow: 199 89% 60%;
+
+    --secondary: 250 30% 18%;
+    --secondary-foreground: 250 70% 90%;
+
+    --muted: 222 30% 14%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 175 40% 18%;
+    --accent-foreground: 175 70% 85%;
+
+    --success: 152 60% 45%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 55%;
+    --warning-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 222 30% 18%;
+    --input: 222 30% 18%;
+    --ring: 217 91% 60%;
+
+    --chart-1: 217 91% 65%;
+    --chart-2: 175 70% 55%;
+    --chart-3: 250 70% 70%;
+    --chart-4: 152 60% 55%;
+    --chart-5: 199 89% 65%;
+    --chart-6: 280 70% 65%;
+    --chart-7: 38 92% 60%;
+
+    --gradient-hero: linear-gradient(135deg, hsl(217 91% 50%) 0%, hsl(250 60% 50%) 50%, hsl(175 70% 40%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(222 47% 6%) 0%, hsl(222 47% 9%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(222 47% 9%) 0%, hsl(222 40% 12%) 100%);
+    --gradient-glow: radial-gradient(circle at 30% 20%, hsl(217 91% 50% / 0.3), transparent 60%);
+
+    --shadow-soft: 0 1px 3px 0 hsl(0 0% 0% / 0.3);
+    --shadow-elevated: 0 10px 30px -10px hsl(0 0% 0% / 0.5);
+    --shadow-glow: 0 0 40px hsl(217 91% 60% / 0.35);
+
+    --sidebar-background: 222 47% 8%;
+    --sidebar-foreground: 210 40% 90%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 222 40% 14%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 222 40% 14%;
+    --sidebar-ring: 217 91% 60%;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+  h1, h2, h3, h4 { @apply tracking-tight; }
+}
+
+@layer utilities {
+  .gradient-hero { background: var(--gradient-hero); }
+  .gradient-subtle { background: var(--gradient-subtle); }
+  .gradient-card { background: var(--gradient-card); }
+  .gradient-glow { background: var(--gradient-glow); }
+  .shadow-soft { box-shadow: var(--shadow-soft); }
+  .shadow-elevated { box-shadow: var(--shadow-elevated); }
+  .shadow-glow { box-shadow: var(--shadow-glow); }
+  .transition-smooth { transition: var(--transition-smooth); }
+  .text-gradient {
+    background: var(--gradient-hero);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
