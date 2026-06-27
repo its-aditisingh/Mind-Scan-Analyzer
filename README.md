@@ -1,9 +1,9 @@
-#Mind Scan Analyzer
+# Mind Scan Analyzer
 
 An AI-powered EEG (Electroencephalogram) signal analysis platform that processes brainwave data, extracts meaningful patterns, and generates predictive insights through Machine Learning models. Mind Scan Analyzer bridges the gap between complex neurological data and practical understanding by providing an intuitive web interface for EEG data analysis, visualization, and prediction.
 
 
-##Project Highlights:
+## Project Highlights:
 
 - AI-powered EEG signal analysis
 - Interactive data visualization dashboard
@@ -13,11 +13,11 @@ An AI-powered EEG (Electroencephalogram) signal analysis platform that processes
 - End-to-end workflow from preprocessing to prediction
 
 
-##Live Project Link:
+## Live Project Link:
 https://mind-scan-analyzer.lovable.app/
 
 
-##Problem Statement:
+## Problem Statement:
 
 EEG datasets contain large volumes of complex brainwave signals that are difficult to interpret without specialized tools. Traditional analysis methods often require extensive technical expertise and manual processing.
 
@@ -31,7 +31,7 @@ Mind Scan Analyzer addresses this challenge by providing an intelligent system t
 
 
 
-##Objectives:
+## Objectives:
 
 The primary objectives of this project are:
 
@@ -43,53 +43,53 @@ The primary objectives of this project are:
 
 
 
-##Key Features:
+## Key Features:
 
-###EEG Data Processing
+### EEG Data Processing
 - Brainwave signal analysis
 - Data preprocessing pipeline
 - Feature extraction and transformation
 
-###Machine Learning Integration
+### Machine Learning Integration
 - Trained model inference
 - Automated prediction generation
 - Pattern recognition from EEG signals
 
-###Data Visualization
+### Data Visualization
 - Interactive dashboard
 - Analytical result presentation
 - User-friendly insights
 
-###Modern Web Experience
+### Modern Web Experience
 - Responsive UI
 - Fast performance using Vite
 - Clean and intuitive navigation
 
 
 
-##Technology Stack:
+## Technology Stack:
 
-###Frontend
+### Frontend
 - React
 - TypeScript
 - Vite
 - Tailwind CSS
 - ShadCN UI
 
-###Artificial Intelligence & Data Processing
+### Artificial Intelligence & Data Processing
 - Python
 - TensorFlow
 - NumPy
 - Pandas
 
-###Development Tools
+### Development Tools
 - Git
 - GitHub
 - Visual Studio Code
 
 
 
-##Project Structure:
+## Project Structure:
 ```text
 Mind-Scan-Analyzer/
 │
@@ -112,19 +112,19 @@ Mind-Scan-Analyzer/
 └── LICENSE
 ```
 
-##System Architecture:
+## System Architecture:
 ![System Architecture](assets/System_Architecture.png)
 
 
-##Project Workflow:
+## Project Workflow:
 ![Workflow Diagram](assets/Project_Workflow.png)
 
 
-##Application Demo:
+## Application Demo:
 ![Demo](assets/Demo.mp4)
 
 
-##Installation:
+## Installation:
 Commands:
 ```bash
 git clone https://github.com/its-aditisingh/Mind-Scan-Analyzer.git
@@ -139,7 +139,7 @@ http://localhost:5173
 ```
 
 
-##Screenshots:
+## Screenshots:
 
 Home Dashboard-
 ![Hompage](screenshots/MindScan-Analyzer-Homepage.png)
@@ -161,7 +161,7 @@ Dataset-
 
 
 
-##Future Enhancements:
+## Future Enhancements:
 - Real-time EEG signal monitoring
 - Improved predictive accuracy using advanced ML models
 - User authentication and profile management
@@ -173,15 +173,15 @@ Dataset-
 
 
 
-##Author
+## Author
 **Aditi Singh**
 - GitHub: https://github.com/its-aditisingh
 - LinkedIn: https://www.linkedin.com/in/adyti
 
 
 
-##Support! 
+## Support! 
 If you found this project interesting, consider giving it a star on GitHub.
 
-##License
+## License
 This project is licensed under the MIT License.
