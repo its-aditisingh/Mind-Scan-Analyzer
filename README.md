@@ -90,7 +90,7 @@ The primary objectives of this project are:
 
 
 ##Project Structure:
-'''text
+```text
 Mind-Scan-Analyzer/
 │
 ├── public/
@@ -110,7 +110,7 @@ Mind-Scan-Analyzer/
 ├── tsconfig.json
 ├── README.md
 └── LICENSE
-'''
+```
 
 ##System Architecture:
 ![System Architecture](assets/System_Architecture.png)
@@ -126,27 +126,38 @@ Mind-Scan-Analyzer/
 
 ##Installation:
 Commands:
-'''bash
+```bash
 git clone https://github.com/its-aditisingh/Mind-Scan-Analyzer.git
 cd Mind-Scan-Analyzer
 npm install
 npm run dev
-'''
+```
 
 Open:
-'''text
+```text
 http://localhost:5173
-'''
+```
 
 
 ##Screenshots:
 
 Home Dashboard-
-![Hompage](screenshots/MindScan Analyzer Homepage.png)
+![Hompage](screenshots/MindScan-Analyzer-Homepage.png)
 
-EEG Analysis Interface-
+Model Insights-
+![Insights](screenshots/Model-Insights.png)
 
-Prediction Results
+Model Performance-
+![Performance](screenshots/Model-Performance.png)
+
+Prediction Interface-
+![Prediction](screenshots/Prediction-Interface.png)
+
+Run Predicition-
+![Execute](screenshots/Run-prediction.png)
+
+Dataset-
+![Dataset](screenshots/Dataset.png)
 
 
 
